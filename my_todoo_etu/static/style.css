@@ -1,0 +1,1081 @@
+  /* ===== INTERFACE BUREAU ===== */
+  .desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+
+  /* ===== TAILLE SITEWEB ===== */
+  .desktop .siteweb {
+    position: relative;
+    width: 1440px;
+    height: 2650px;
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+
+  .desktop .siteweb2 {
+    position: relative;
+    width: 1440px;
+    height: 2650px;
+    background-color: #ffffff;
+    overflow: hidden;
+    filter: blur(5px); /*Applique un flou à l'arrière-plan */
+    pointer-events: none; /* Empêche l'interaction avec l'arrière-plan */
+  }
+
+  /* ===== BARRE DE NAVIGATION ===== */
+  .desktop .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 118px;
+    background-color: rgb(120, 212, 120);
+    background-size: 100% 100%;
+  }
+  
+  /* ===== LOGO STAGE CONNECT & CESI ===== */
+  .desktop .StageConnect {
+    position: absolute;
+    top: 60px;
+    left: 12px;
+    width: 219px;
+    height: 51px;
+    object-fit: cover;
+  }
+  
+  .desktop .cesi {
+    position: absolute;
+    top: 7px;
+    left: 60px;
+    width: 140px;
+    height: 49px;
+    object-fit: cover;
+  }
+  
+  /* ===== MENU NAVIGATION ===== */
+  .desktop .bloc1 {
+    position: absolute;
+    top: 17px;
+    left: 249px;
+    width: 210px;
+    height: 101px;
+  }
+  
+  .desktop .PageAccueil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 89px;
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+  }
+  
+  .desktop .line1 {
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    width: 160px;
+    height: 14px;
+  }
+  
+  /* ===== OFFRE D'EMPLOI & AVIS ENTREPRISE ===== */
+  .desktop .bloc2 {
+    position: absolute;
+    top: 19px;
+    left: 459px;
+    width: 434px;
+    height: 84px;
+  }
+  
+  .desktop .OffreEmploi,
+  .desktop .AvisEntreprise {
+      position: absolute;
+      top: 0;
+      font-family: "Inter", Helvetica;
+      font-size: 32px;
+      font-weight: 800;
+      font-style: italic;
+      text-align: center;
+      line-height: normal;
+      color: #ffffff;
+  }
+
+  .desktop .OffreEmploi {
+      left: 0;
+      width: 233px;
+      height: 84px;
+  }
+
+  .desktop .AvisEntreprise {
+      left: 198px;
+      width: 236px;
+      height: 77px;
+  }
+
+  /* ===== BOUTONS INSCRIPTION & CONNEXION ===== */
+  .desktop .rectangle1,
+  .desktop .rectangle2 {
+      position: absolute;
+      top: 33px;
+      width: 166px;
+      height: 45px;
+      background-color: #d9d9d9;
+      border-radius: 5px;
+  }
+
+  .desktop .rectangle1 { left: 1073px; }
+  .desktop .rectangle2 { left: 1256px; }
+
+  .desktop .inscription,
+  .desktop .connexion {
+      position: absolute;
+      top: 9px;
+      left: 6px;
+      width: 152px;
+      height: 24px;
+      font-family: "Inter", Helvetica;
+      font-size: 24px;
+      font-weight: 800;
+      font-style: italic;
+      text-align: center;
+      color: #000000;
+      white-space: nowrap;
+  }
+
+  
+  /* ===== PARTIE HAUTE DU SITEWEB ===== */
+  .desktop .HautDePage {
+    position: absolute;
+    top: 150px;
+    width: 1440px;
+    height: 530px;
+  }
+  
+  .desktop .ImageBureau {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    width: 1400px;
+    height: 456px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  /* ===== BARRE DE RECHERCHE ===== */
+  .desktop .BarreDeRecherche {
+    position: absolute;
+    top: 399px;
+    left: 237px;
+    width: 1075px;
+    height: 118px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 1px solid #00000080;
+  }
+
+  .desktop .text1,
+  .desktop .text2 {
+      position: absolute;
+      top: 45px;
+      width: 595px;
+      height: 46px;
+  }
+
+  .desktop .text1 { left: 0px; }
+  .desktop .text2 { left: 550px; }
+
+  .desktop .text {
+      position: absolute;
+      top: 0;
+      right: 110px;
+      width: 593px;
+      height: 46px;
+      font-family: "Inter", Helvetica;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      color: #000000;
+      opacity: 0.6;
+  }
+
+  .desktop .line2 {
+      position: absolute;
+      top: 11px;
+      left: 595px;
+      width: 1px;
+      height: 93px;
+      object-fit: cover;
+  }
+
+  .desktop .loupe {
+      position: absolute;
+      top: 25px;
+      left: 1000px;
+      width: 60px;
+      height: 60px;
+  }
+  
+  /* ===== OFFRES D'EMPLOI - SECTION ENTREPRISES ===== */
+  .desktop .edf,
+  .desktop .bouygues,
+  .desktop .thales {
+      position: absolute;
+      width: 478px;
+      height: 231px;
+      top: 730px;
+  }
+
+  .desktop .edf { left: 0; }
+  .desktop .bouygues { left: 478px; }
+  .desktop .thales { left: 952px; }
+
+  /* ===== CONTENU ENTREPRISES ===== */
+  .desktop .rectangle3 {
+      position: absolute;
+      top: 0;
+      left: 43px;
+      width: 431px;
+      height: 231px;
+      background-color: #d9d9d9;
+      border-radius: 20px;
+  }
+
+  .desktop .ImageOffre {
+      position: absolute;
+      top: 0;
+      left: 43px;
+      width: 431px;
+      height: 132px;
+      object-fit: cover;
+  }
+
+  /* ===== PRÉSENTATION OFFRES ===== */
+  .desktop .stage {
+      position: absolute;
+      top: 145px;
+      left: 30px;
+      width: 453px;
+      height: 56px;
+      font-family: "Inter", Helvetica;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      color: #000000;
+  }
+
+  /* ===== LOCALISATION OFFRES ===== */
+  .desktop .lieu {
+      position: absolute;
+      top: 175px;
+      left: 120px;
+      width: 283px;
+      height: 34px;
+      font-family: "Inter", Helvetica;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      color: #00000080;
+  }
+
+  .desktop .fleche {
+      position: absolute;
+      top: 165px;
+      left: 406px;
+      width: 60px;
+      height: 60px;
+  }
+  
+
+  .desktop .apdne {
+    position: absolute;
+    top: 1020px;
+    left: 149px;
+    width: 1114px;
+    height: 133px;
+    font-family: "Jua", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  /* ===== PRÉSENTATION DE L'ENTREPRISE ===== */
+  .desktop .rectangle4 {
+    position: absolute;
+    top: 170px;
+    left: -50px;
+    width: 750px;
+    height: 150px;
+    background-color: rgb(56, 138, 56);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .desktop .entreprise {
+    width: 840px;
+    font-family: "Jua", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 10px;
+  }
+
+  /* ===== IMAGE ENTREPRISE ===== */
+  .desktop .ImageBatiment {
+    position: absolute;
+    top: 90px;
+    left: 750px;
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* ===== IMAGE STAGE ===== */
+  .desktop .ImageStage {
+    position: absolute;
+    top: 380px;
+    left: -60px;
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /* ===== PRÉSENTATION STAGE ===== */
+  .desktop .rectangle5 {
+    position: absolute;
+    top: 470px;
+    left: 420px;
+    width: 750px;
+    height: 130px;
+    background-color: rgb(56, 138, 56);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .desktop .presentation {
+    width: 800px;
+    font-family: "Jua", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 15px;
+  }
+
+  
+  /* ======= TITRE DE LA SECTION ÉQUIPE ======= */
+  .desktop .PresentationEquipe {
+    position: absolute;
+    top: 1720px;
+    left: 149px;
+    width: 1114px;
+    height: 133px;
+    font-family: "Jua", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  /* ======= CARTES ÉQUIPE (STRUCTURE GÉNÉRALE) ======= */
+  .desktop .rectangle6,
+  .desktop .rectangle7,
+  .desktop .rectangle8,
+  .desktop .rectangle9 {
+    position: absolute;
+    top: 1810px;
+    width: 600px;
+    height: 250px;
+    background-color: purple;
+    border-radius: 20px;
+    background-size: 100% 100%;
+  }
+
+  .desktop .rectangle6 { left: -1250px; }
+  .desktop .rectangle7 { left: -480px; }
+  .desktop .rectangle8 { left: 256px; }
+  .desktop .rectangle9 { left: 1000px; }
+
+  /* ======= PHOTOS ======= */
+  .desktop .Photo {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* ======= NOMS DES MEMBRES ======= */
+  .desktop .maxime,
+  .desktop .nino,
+  .desktop .Carole,
+  .desktop .marco {
+    position: absolute;
+    top: 50px;
+    width: 359px;
+    height: 68px;
+    font-family: "Jua", Helvetica;
+    font-size: 55px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  .desktop .maxime { left: 230px; }
+  .desktop .nino   { left: 250px; }
+  .desktop .Carole { left: 230px; }
+  .desktop .marco  { left: 240px; }
+
+  /* ======= DESCRIPTION ======= */
+  .desktop .description {
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    width: 321px;
+    height: 50px;
+    font-family: "Jua", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+  }
+
+  /* ======= CHEVRONS ======= */
+  .desktop .ChevronFermant,
+  .desktop .ChevronOuvrant,
+  .desktop .ChevronFermant2 {
+    position: absolute;
+    width: 65px;
+    height: 87px;
+    top: 1900px;
+  }
+
+  .desktop .ChevronFermant  { left: -590px; }
+  .desktop .ChevronOuvrant  { left: 150px; }
+  .desktop .ChevronFermant2 { left: 900px; }
+
+
+
+  /* ======= ANIMATION DÉFILEMENT ======= */
+  @keyframes slide-loop {
+    0% { transform: translateX(-100vw); } /* Début hors écran à gauche */
+    100% { transform: translateX(100vw); } /* Sortie par la droite */
+  }
+
+  .desktop .rectangle6,
+  .desktop .rectangle7,
+  .desktop .rectangle8,
+  .desktop .rectangle9,
+  .desktop .ChevronFermant2,
+  .desktop .ChevronOuvrant,
+  .desktop .ChevronFermant {
+    position: absolute;
+    animation: slide-loop 20s linear infinite;
+  }
+
+  /* ======= SECTION "NOS MISSIONS" ======= */
+  .desktop .ImageMissions {
+    position: absolute;
+    top: 2135px;
+    left: 50px;
+    width: 600px;
+    height: 331px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .desktop .NosMissions {
+    position: absolute;
+    top: 2250px;
+    left: 70px;
+    width: 550px;
+    height: 100px;
+    font-size: 96px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre portée */
+    opacity: 0;
+    transition: opacity 15s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  /* ======= CONTENU DE LA SECTION "MISSIONS" ======= */
+  .desktop .bloc3 {
+    position: absolute;
+    top: 2200px;
+    left: 730px;  
+    width: 700px;
+    font-family: "Jua", Helvetica;
+    color: rgb(2, 83, 43);
+  }
+
+  /* TITRE */
+  .desktop .titre {
+    width: 700px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /* LISTE DES MISSIONS */
+  .desktop .ListeMissions {
+    list-style: none;
+    padding: 0;
+  }
+
+  .desktop .ListeMissions li {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  /* ======= Bas De Page ======= */
+  .desktop .BasDePage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 118px;
+    background-color: rgb(120, 212, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* ======= LIENS ======= */
+  .desktop .InfosLegales,
+  .desktop .CGU,
+  .desktop .politique,
+  .desktop .contact,
+  .desktop .copyright {
+    font-family: "Jua", Helvetica;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+  }
+
+  /* ======= SÉPARATEURS ======= */
+  .desktop .line5,
+  .desktop .line6,
+  .desktop .line7 {
+    width: 1px;
+    height: 50px;
+    background-color: #000;
+  }
+
+  /* ======= COPYRIGHT ======= */
+  .desktop .copyright {
+    width: 475px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .desktop .ImageCopyright {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+
+
+  /* Responsivité : S'adapter aux petites tailles d'écran */
+  @media (max-width: 768px) {
+    .desktop .NosMissions {
+        font-size: 48px; /* Taille réduite sur petits écrans */
+        padding: 15px;
+    }
+
+    .desktop .rectangle4,
+    .desktop .rectangle5 {
+        width: 100%; /* Les sections s'adaptent à l'écran */
+        height: auto;
+    }
+
+    .desktop .ImageBatiment,
+    .desktop .ImageStage {
+        width: 100%;
+        height: auto;
+    }
+  }
+
+
+
+  /*Formulaire d'inscription*/
+
+  .fi {
+    width: 698px;
+    height: 1061px;
+    position: fixed; /* Fixe le formulaire par-dessus le reste */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centre le formulaire */
+    z-index: 1000; /* S'assure que le formulaire est au-dessus du reste */
+  }
+
+.fi .group1 {
+    position: relative;
+    height: 1061px;
+    top: -1px;
+}
+
+.fi .rectangle {
+    position: absolute;
+    width: 697px;
+    height: 1028px;
+    top: 0;
+    left: 1px;
+    background-color: #ebffee;
+    border-radius: 40px;
+}
+
+.fi .img {
+    position: absolute;
+    width: 120px;
+    height: 7px;
+    top: 115px;
+    left: 70px;
+}
+
+.fi .text-wrapper {
+    position: absolute;
+    width: 290px;
+    top: 30px;
+    left: 198px;
+    font-family: "Adamina-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.fi .line {
+    top: 74px;
+    position: absolute;
+    width: 598px;
+    height: 2px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.fi .line-2 {
+    top: 135px;
+    position: absolute;
+    width: 598px;
+    height: 2px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.fi .div {
+    position: absolute;
+    width: 300px;
+    top: 157px;
+    left: 48px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.fi .text-wrapper-2 {
+    position: absolute;
+    width: 185px;
+    top: 256px;
+    left: 39px;
+    Font-family: "Inter-Regular", Helvetica; 
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 24px; 
+    text-align: center; 
+    letter-spacing: 2.40px;
+    line-height: normal;
+}
+
+.fi .text-wrapper-3 {
+    position: absolute; 
+    width: 197px; 
+    top: 360px; 
+    left: 40px; 
+    font-family: "Inter-Regular", Helvetica; 
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 24px; 
+    text-align: center; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .text-wrapper-4 { 
+    position: absolute; 
+    width: 200px; 
+    top: 91px; 
+    left: 30px; 
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500; 
+    color: #000000; 
+    font-size: 24px; 
+    text-align: center; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .text-wrapper-5 { 
+    position: absolute; 
+    width: 235px; 
+    top: 91px; 
+    left: 430px; 
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500; 
+    color: #000000; 
+    font-size: 24px; 
+    text-align: center; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .text-wrapper-6 { 
+    position: absolute; 
+    width: 199px; 
+    top: 91px; 
+    left: 231px; 
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500; 
+    color: #000000; 
+    font-size: 24px; 
+    text-align: center; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .text-wrapper-7 { 
+    position: absolute; 
+    width: 300px; 
+    top: 157px; 
+    left: 370px; 
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 24px; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .g-recaptcha {
+    position: absolute;
+    width: 355px;
+    height: 90px;
+    top: 800px;
+    left: 200px;
+    object-fit: cover;
+}
+
+/*Rectangle S'inscrire*/
+
+.fi .rectangle-2 { 
+    position: absolute; 
+    width: 598px; 
+    height: 67px; 
+    top: 899px; 
+    left: 41px; 
+    background-color: #9effc3; 
+    border: 1px solid; 
+    border-color: #000000;
+    border-radius: 20px;
+}
+
+.fi .rectangle-3 { 
+    position: absolute; 
+    width: 598px; 
+    height: 51px; 
+    top: 293px; 
+    left: 46px; 
+    background-color: #ecfff3; 
+    border: 1px solid; 
+    border-color: #000000;
+}
+
+.fi .rectangle-4 { 
+    position: absolute; 
+    width: 283px; 
+    height: 51px; 
+    top: 191px; 
+    left: 46px; 
+    background-color: #ecfff3; 
+    border: 1px solid; 
+    border-color: #000000;
+}
+
+.fi .rectangle-5 { 
+    position: absolute; 
+    width: 283px; 
+    height: 51px; 
+    top: 191px; 
+    left: 369px; 
+    background-color: #ecfff3; 
+    border: 1px solid; 
+    border-color: #000000;
+}
+
+.fi .rectangle-6 { 
+    position: absolute; 
+    width: 598px; 
+    height: 51px; 
+    top: 396px; 
+    left: 46px; 
+    background-color: #ecfff3; 
+    border: 1px solid; 
+    border-color: #000000;
+}
+
+.fi .text-wrapper-8 { 
+    position: absolute; 
+    width: 377px; 
+    top: 468px; 
+    left: 28px; 
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 24px; 
+    text-align: center; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .rectangle-7 { 
+    position: absolute; 
+    width: 598px; 
+    height: 51px; 
+    top: 506px; 
+    left: 46px; 
+    background-color: #ecfff3; 
+    border: 1px solid; 
+    border-color: #000000;
+}
+
+.fi .text-wrapper-9 { 
+    position: absolute; 
+    width: 400px; 
+    top: 685px; 
+    left: 48px; 
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 24px; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .text-wrapper-10 { 
+    position: absolute; 
+    width: 400px; 
+    top: 574px; 
+    left: 48px; 
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 24px; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .rectangle-8 { 
+    position: absolute; 
+    width: 598px; 
+    height: 51px; 
+    top: 721px; 
+    left: 46px; 
+    background-color: #ecfff3; 
+    border: 1px solid; 
+    border-color: #000000;
+}
+
+.fi .rectangle-9 { 
+    position: absolute; 
+    width: 598px; 
+    height: 51px; 
+    top: 615px; 
+    left: 46px; 
+    background-color: #ecfff3; 
+    border: 1px solid; 
+    border-color: #000000;
+}
+
+/*Texte s'inscrire*/
+
+.fi .text-wrapper-11 { 
+    position: absolute; 
+    width: 337px; 
+    top: 18px; 
+    left: 135px; 
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 24px; 
+    text-align: center; 
+    letter-spacing: 2.40px; 
+    line-height: normal;
+}
+
+.fi .compte {
+    position: absolute; 
+    width: 591px; 
+    top: 975px; 
+    left: 44px; 
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400; 
+    color: #000000; 
+    font-size: 16px; 
+    text-align: center; 
+    letter-spacing: 1.60px; 
+    line-height: normal;
+}
+
+.fi .span {
+    letter-spacing: 0.26px;
+}
+
+.fi .text-wrapper-12 {
+    letter-spacing: 0.26px;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .fi {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+  }
+  .fi .rectangle {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+  }
+  .fi input, .fi button {
+      width: 90%;
+      margin: 10px auto;
+      display: block;
+  }
+}
+
+/* Style général des barres */
+.desktop .BarreDeRecherche2,
+.desktop .BarreDeRecherche3,
+.desktop .BarreDeRecherche4 {
+  position: absolute;
+  top: 700px;
+  width: 250px;
+  height: 80px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  border: 1px solid #00000080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Position spécifique de chaque barre */
+.desktop .BarreDeRecherche2 { left: 300px; }
+.desktop .BarreDeRecherche3 { left: 650px; }
+.desktop .BarreDeRecherche4 { left: 1000px; }
+
+/* Style des textes (labels) */
+.desktop .text3,
+.desktop .text4,
+.desktop .text5 {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Style des sélections */
+.desktop select {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 5px;
+  font-size: 14px;
+  background-color: white;
+}
+
+.desktop .rectangle10{
+  position: absolute;
+  width: 1440px;
+  top: 950px;
+  height: 500px;
+  background-color: #D9D9D9D9;
+}
+.desktop .buy{
+  position: absolute;
+  width: 280px;
+  top: 50px;
+  height: 170px;
+  left: 150px;
+  border-radius: 15px; 
+}
+.desktop .text7{
+  position: absolute;
+  width: 1440px;
+  top: 125px;
+  height: 500px;
+  font-size:30px;
+  align-items: center;
+  text-align:center;
+  font-family: "Inter", "Helvetica";
+}
+.desktop .text8{
+  position: absolute;
+  width: 1440px;
+  top: 150px;
+  height: 500px;
+  font-size:30px;
+  font-family: "Inter", "Helvetica";
+}
+
+
+
+
+
+
+
+
+
+ 
