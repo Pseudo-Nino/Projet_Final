@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8" /> 
+        <link rel="stylesheet" href="static/globals.css" /> 
+        <link rel="stylesheet" href="static/style.css" />
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head> 
+    <body>
+        <div class="desktop">
+
+            <div class="fi">
+                <form action="#" method="POST">
+                    <div class="group1">
+                        <div class="rectangle"></div>
+
+                        <!-- Role -->
+                        <fieldset>
+                        <img class="line" src="assets/horizontal-line.png" />
+                        <img class="line-2" src="assets/horizontal-line.png" />
+                        <label class="text-wrapper-4">
+                            <input type="radio" name="role" value="etudiant" required> Étudiant
+                        </label>
+                        <label class="text-wrapper-6">
+                            <input type="radio" name="role" value="pilote" required> Pilote
+                        </label>
+                        <label class="text-wrapper-5">
+                            <input type="radio" name="role" value="entreprise" required> Entreprise
+                        </label>
+                        </fieldset>
+            
+                        <!-- Connexion -->
+                        <fieldset>
+                            <legend class="text-wrapper" >CONNEXION</legend>
+                            <img class="line" src="assets/horizontal-line.png" />
+                            <img class="line-2" src="assets/horizontal-line.png" />
+                            <label class="text-wrapper-2" for="email">Adresse Mail</label>
+                            <input class="rectangle-3" type="email" name="email" id="email" placeholder="exemple@mail.com" required>
+            
+                            <label class="text-wrapper-3" for="password">Mot De Passe</label>
+                            <input class="rectangle-6" type="password" name="password" id="password" placeholder="Mot de passe" required>
+                        </fieldset>
+            
+                        <!-- Bouton Connexion -->
+                        <button type="submit" class="rectangle-2">
+                            <span class="text-wrapper-11">Se connecter</span>
+                        </button>
+            
+                        <!-- Lien vers Inscription -->
+                        <p class="compte">
+                            <span class="span">Pas encore de compte ? </span>
+                            <a href="index.php?page=inscription" class="text-wrapper-12">S'inscrire</a>
+                        </p>
+
+                        <!-- reCAPTCHA -->
+                        <div class="g-recaptcha" data-sitekey="6LcxtMwqAAAAAGti-x2Yj3Kw7n_QXbPyRxMrgMpo"></div>
+        
+                    </div>
+                </form>
+            </div>
+            
+
+<div class="siteweb2">
+    {% include 'navbar.html.twig' %}
+    {% include 'header.html.twig' %}
+    {% include 'main.html.twig' %}
+    {% include 'footer.html.twig' %}
+
+</div>
+
+  
+
+</div>
+
+
+        <!-- Lien fichier JS -->
+        <script src="static/script.js"></script>
+</body>
+</html>

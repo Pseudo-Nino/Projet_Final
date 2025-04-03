@@ -1,0 +1,1022 @@
+.desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color:#ffffff;
+}
+.desktop .siteweb{
+    position: relative;
+    width: 1440px;
+    height: 3000px;
+    background-color:#ffffff;
+    overflow: hidden;
+}
+.desktop .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 118px;
+    background-color: rgb(120, 212, 120);
+    background-size: 100% 100%;
+}
+.desktop .cesi{
+    position: absolute;
+    top: 7px;
+    left: 60px;
+    width: 140px;
+    height: 49px;
+    object-fit: cover;
+}
+.desktop .StageConnect{
+    position: absolute;
+    top: 60px;
+    left: 12px;
+    width: 219px;
+    height: 51px;
+    object-fit: cover;
+}
+.desktop .bloc1 {
+    position: absolute;
+    top: 17px;
+    left: 249px;
+    width: 210px;
+    height: 101px;
+}
+.desktop .PageAccueil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 89px;
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+}
+.desktop .bloc2 {
+    position: absolute;
+    top: 19px;
+    left: 459px;
+    width: 434px;
+    height: 84px;
+}
+.desktop .offresemplois{
+    position: absolute;
+    top: -4px;
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    left: 0;
+    width: 233px;
+    height: 84px;
+}
+.desktop .line1{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+    width: 180px;
+    height: 14px;
+}
+.desktop .AvisEntreprise {
+    position: absolute;
+    top: -4px;
+    font-family: "Inter", Helvetica;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    line-height: normal;
+    color: #ffffff;
+    left: 230px;
+    width: 236px;
+    height: 77px;
+}
+.desktop .rectangle1{
+    position: absolute;
+    top: 33px;
+    width: 166px;
+    height: 45px;
+    background-color: #d9d9d9;
+    border-radius: 5px; 
+    left: 1073px;
+}
+.desktop .rectangle2{
+    position: absolute;
+    top: 33px;
+    width: 166px;
+    height: 45px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    left: 1256px;
+}
+.desktop .inscription{
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    width: 152px;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+.desktop .connexion {
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    width: 152px;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+.desktop .ImageBureau{
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    width: 1400px;
+    height: 456px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.desktop .HautDePage {
+    position: absolute;
+    top: 150px;
+    width: 1440px;
+    height: 530px;
+}
+.desktop .BarreDeRecherche {
+    position: absolute;
+    top: 475px;
+    left: 170px;
+    width: 1075px;
+    height: 118px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 1px solid #00000080;
+    text-align : center;
+}
+.desktop .text1{
+    position: absolute;
+    top: 45px;
+    width: 595px;
+    height: 46px;
+    left: 100px;
+}
+.desktop .text2{
+    position: absolute;
+    top: 45px;
+    width: 595px;
+    height: 46px;
+    left: 550px;
+}
+.desktop .text{
+    position: absolute;
+    top: 0;
+    right: 110px;
+    width: 593px;
+    height: 46px;
+    font-family: "Inter", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+.desktop .line2 {
+    position: absolute;
+    top: 11px;
+    left: 595px;
+    width: 1px;
+    height: 93px;
+    object-fit: cover;
+}
+.desktop .loupe {
+    position: absolute;
+    top: 25px;
+    left: 950px;
+    width: 60px;
+    height: 60px;
+}
+.desktop .BarreDeRecherche2{
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    height: 80px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 1px solid #00000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 300px;
+}
+.desktop #duree {
+    background-color: #f8f8f8;  /* Couleur de fond claire */
+    font-size: 20px;            /* Taille de la police */
+    padding: 5px 15px;         /* Espacement intérieur */
+    border-radius: 15px;         /* Coins arrondis */
+    border: 1px solid #ccc;    /* Bordure grise claire */
+    width: 120px;               /* Largeur du select */
+    cursor: pointer;  
+}
+.desktop #duree option {
+    background-color: #fff;    /* Fond blanc pour les options */
+    color: #333;               /* Couleur du texte */
+    padding: 10px;             /* Espacement des options */
+    font-size: 16px;           /* Taille de la police des options */
+    text-align: center; 
+}
+.desktop #duree option:hover {
+    background-color: #e0e0e0; /* Fond gris clair lors du survol de l'option */
+}
+.desktop .text3{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Inter" , Helvetica;
+}
+.desktop .BarreDeRecherche3{
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    height: 80px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 1px solid #00000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 650px;
+}
+.desktop .text4{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.desktop .BarreDeRecherche4{
+    position: absolute;
+    top: 650px;
+    width: 250px;
+    height: 80px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    border: 1px solid #00000080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 1000px;
+}
+.desktop .text5{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.desktop .offres {
+    position: absolute;
+    padding: 90px;
+    top: 790px;
+    font-family: "Inter", Helvetica;
+    width: 1440px;
+    height: 530px;
+}
+.desktop .text6{
+    width: 2000px;
+    height: 50px;
+    left: 1000px;
+    font-size: 40px;
+}
+.desktop .special-mot{
+    padding: 0 450px;
+    display: inline-block;
+    left: 1000px;
+}
+.desktop .traits{
+    position: absolute;
+    top: 90px;
+    left: 1250px;
+    width: 10%;
+    height: auto; 
+    padding: 50 1750px;
+    display: flex;
+}
+.desktop .offres-stage1{
+    position: absolute;
+    background: white;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    width: 1200px;
+    height: 350px;
+    background-color: #D9D9D9D9;
+    border-radius: 20px;
+}
+.desktop .Bouygues-Télécom{
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    top: 20px;
+}
+.desktop .text7{
+    position: absolute;
+    top: 20px;
+    color: black;
+    font-size: 30px;
+    width:600px;
+    left: 150px;
+    text-align: center;
+    text-decoration: underline;
+}
+.desktop .text8{
+    position: absolute;
+    top: 95px;
+    font-size: 30px;
+    width:600px;
+    left: 30px;
+}
+.desktop .rectangle3{
+    position: absolute;
+    background-color: #C773C0;
+    top: 190px;
+    width: 550px;
+    left: 30px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .localisation1{
+    position: absolute;
+    top: 10px;
+    width: 7%;
+    height: auto;
+    left: 20px;
+}
+.desktop .text9{
+    position: absolute;
+    top: 15px;
+    font-size: 30px;
+    width: 600px;
+    left: 125px;
+}
+.desktop .rectangle4{
+    position: absolute;
+    background-color: #C773C0;
+    top: 290px;
+    width: 600px;
+    left: 30px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .niveau1{
+    position: absolute;
+    top: 10px;
+    width: 7%;
+    height: auto;
+    left: 20px;
+}
+.desktop .tag1{
+    position: absolute;
+    top: 15px;
+    font-size: 30px;
+    width:600px;
+    left: 58px;
+}
+.desktop .text10{
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    width:600px;
+    left: 110px;
+}
+.desktop .rectangle5{
+    position: absolute;
+    background-color: #C773C0;
+    top: 195px;
+    width: 190px;
+    left: 710px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .rectangle6{
+    position: absolute;
+    background-color: #C773C0;
+    top: 295px;
+    width: 190px;
+    left: 710px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .duration1{
+    position: absolute;
+    top: 12px;
+    font-size: 30px;
+    width: 150px;
+    left: 30px;
+}
+.desktop .btn-offer{
+    position: absolute;
+    top: 190px;
+    font-size: 30px;
+    width: 200px;
+    left: 1022px;
+    border-radius: 20px;
+    background-color: #89D399;
+}
+.desktop .offres-stage2{
+    position: absolute;
+    background: white;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    align-items: center;
+    width: 1200px;
+    background-color: #D9D9D9D9;
+    border-radius: 20px;
+    top: 690px;
+    height: 350px;
+}
+.desktop .edf{
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    top: 20px;
+}
+.desktop .text11{
+    position: absolute;
+    top: 20px;
+    color: black;
+    font-size: 30px;
+    width:600px;
+    left: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.desktop .localisation2{
+    position: absolute;
+    top: 10px;
+    width: 7%;
+    height: auto;
+    left: 25px;
+}
+.desktop .text12{
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    width: 600px;
+    left: 25px;
+}
+.desktop .rectangle7{
+    position: absolute;
+    background-color: #C773C0;
+    top: 195px;
+    width: 630px;
+    left: 30px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .text13{
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    width: 600px;
+    left: 120px;
+}
+.desktop .rectangle8{
+    position: absolute;
+    background-color: #C773C0;
+    top: 295px;
+    width: 630px;
+    left: 30px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .text14{
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    width: 600px;
+    left: 120px;
+}
+.desktop .niveau2{
+    position: absolute;
+    top: 10px;
+    width: 7%;
+    height: auto;
+    left: 25px;
+}
+.desktop .rectangle9{
+    position: absolute;
+    background-color: #C773C0;
+    top: 195px;
+    width: 190px;
+    left: 710px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .tag2{
+    position: absolute;
+    top: 15px;
+    font-size: 30px;
+    width:600px;
+    left: 58px;
+}
+.desktop .rectangle10{
+    position: absolute;
+    background-color: #C773C0;
+    top: 295px;
+    width: 190px;
+    left: 710px;
+    font-size: 70px;
+    height: 60px;
+    border-radius: 45px;
+}
+.desktop .duration2{
+    position: absolute;
+    top: 12px;
+    font-size: 30px;
+    width: 150px;
+    left: 30px;
+}
+.desktop .BasDePage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 118px;
+    background-color: rgb(120, 212, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+  .desktop .InfosLegales,
+  .desktop .CGU,
+  .desktop .politique,
+  .desktop .contact,
+  .desktop .copyright {
+    font-family: "Jua", Helvetica;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+}
+  .desktop .line5,
+  .desktop .line6,
+  .desktop .line7 {
+    width: 1px;
+    height: 50px;
+    background-color: #000;
+}
+  .desktop .copyright {
+    width: 475px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  .desktop .ImageCopyright {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+   
+ /* ===== AVIS ENTREPRISE ===== */
+
+ .desktop .line3 {
+    position: absolute;
+    top: 75px;
+    height: 14px;
+    left: 230px;
+    width: 236px;
+}
+ .desktop .rectangle11 {
+    position: absolute;
+    top: 670px;
+    left: 0;
+    width: 1440px;
+    height: 250px;
+    background-color: rgb(212, 120, 180);
+    background-size: 100% 100%;
+}
+.desktop .titre1{
+    position: absolute;
+    top: 15px;
+    font-size: 50px;
+    width: 600px;
+    left: 80px;
+    color: black;
+    font-weight: extra-bold;
+    text-align: center;
+    font-style: italic;
+}
+.desktop .text15{
+    position: absolute;
+    top: 85px;
+    font-size: 30px;
+    width:600px;
+    left: 300px;  
+    text-align: center;
+    color: black;
+    align-items: center;
+}
+.desktop .text16{
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+    width:600px;
+    left: 300px;  
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+.desktop .text17{
+    position: absolute;
+    top: 980px;
+    font-size: 30px;
+    width:600px;
+    left: -50px;  
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-style: italic;
+}
+ .desktop .rectangle12 {
+    position: absolute;
+    top: 1070px;
+    left: 120px;
+    width: 350px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgb(120, 212, 140);
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
+}
+.desktop .texte1{
+    position: absolute;
+    top: 70px;
+    left: 3px;
+    width: 350px;
+    height: 180px;
+}
+.desktop .texte2{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    width: 350px;
+    height: 180px;
+}
+.desktop .texte3{
+    position: absolute;
+    top: 70px;
+    left: 130px;
+    width: 350px;
+    height: 180px;
+}
+
+  /* ===== BARRE DE NAVIGATION ===== */
+  .desktop .rectangle13 {
+    position: absolute;
+    top: 1070px;
+    left: 530px;
+    width: 350px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgb(120, 212, 140);
+    background-size: 100% 100%;
+}
+ 
+  /* ===== BARRE DE NAVIGATION ===== */
+  .desktop .rectangle14 {
+    position: absolute;
+    top: 1070px;
+    left: 940px;
+    width: 350px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: rgb(120, 212, 140);
+    background-size: 100% 100%;
+}
+ 
+  /* ===== BARRE DE NAVIGATION ===== */
+  .desktop .rectangle15 {
+    position: absolute;
+    top: 1310px;
+    left: 0;
+    width: 1440px;
+    height: 370px;
+    background-color: rgb(212, 120, 180);
+    background-size: 100% 100%;
+}
+.desktop .text18{
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    width:600px;
+    left: -100px;  
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+.desktop .text19{
+    position: absolute;
+    top: 80px;
+    font-size: 30px;
+    width: 1380px;
+    left: 48px;  
+    text-align: left;
+    align-items: center;
+    color: black;
+}
+.desktop .text20{
+    position: absolute;
+    top: -180px;
+    left: 300px;
+    width: 750px;
+    height: 180px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+ 
+.desktop .container {
+    position: absolute;
+    max-width: 2500px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    top: 1900px;
+}
+ 
+h1 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 30px;
+}
+ 
+.desktop .review {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+.desktop .review:last-child {
+    border-bottom: none;
+}
+ 
+.desktop .profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ 
+.desktop .avatar {
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #b25fcd;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+ 
+.desktop .name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+}
+ 
+.desktop .stars {
+    color: #FFD700; /* Couleur or pour les étoiles */
+    font-size: 1.5em;
+    margin-left: 75px; /* Pour aligner avec le texte sous la bulle */
+}
+ 
+p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+    margin-left: 75px; /* Aligné aussi */
+}
+ 
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .avatar {
+        width: 50px;
+        height: 50px;
+        font-size: 1em;
+    }
+    .stars, p {
+        margin-left: 65px;
+    }
+}
+/* ===== VOIR OFFRE 1===== */
+
+.desktop .ImageBouygues{
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    width: 1400px;
+    height: 656px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.desktop .vector{
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    width: 40px;
+    height: 14px;
+}
+.desktop .line8{
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    width: 5px;
+    height: 70px;
+}
+.desktop .text15{
+    position: absolute;
+    top: 550px;
+    font-size: 30px;
+    width: 650px;
+    left: -100px;
+}
+.desktop .ImageBouygues1{
+    position: absolute;
+    top: 890px;
+    font-size: 2050px;
+    width: 150px;
+    left: 70px;
+}
+.desktop .text21{
+    position: absolute;
+    top: 24px;
+    font-size: 30px;
+    width: 600px;
+    left: 120px;
+}
+.desktop .text22{
+    position: absolute;
+    top: 890px;
+    font-size: 30px;
+    width: 600px;
+    left: 290px;
+}
+.desktop .line9{
+    position: absolute;
+    top: 1070px;
+    left: 50px;
+    width: 5px;
+    height: 70px;
+}
+.desktop .text23{
+    position: absolute;
+    top: 1050px;
+    font-size: 30px;
+    width: 600px;
+    left: 50px;
+}
+.desktop .text24{
+    position: absolute;
+    top: 1070px;
+    font-size: 30px;
+    width: 600px;
+    left: 1000px;
+}
+.desktop .text25{
+    position: absolute;
+    top: 1220px;
+    font-size: 30px;
+    width: 600px;
+    left: 270px;
+    text-align: center;
+}
+.desktop .text26{
+    position: absolute;
+    top: 1350px;
+    font-size: 30px;
+    width: 1400px;
+    left: 50px;
+}
+.desktop .text27{
+    position: absolute;
+    top: 1480px;
+    font-size: 30px;
+    width: 1400px;
+    left: 50px;
+}
+.desktop .text28{
+    position: absolute;
+    top: 1620px;
+    font-size: 30px;
+    width: 1400px;
+    left: 50px;
+}
+.desktop .text29{
+    position: absolute;
+    top: 1650px;
+    font-size: 30px;
+    width: 1400px;
+    left: 50px;
+}
+.desktop .text30{
+    position: absolute;
+    top: 1950px;
+    font-size: 30px;
+    width: 1400px;
+    left: 50px;
+}
+.desktop .text31{
+    position: absolute;
+    top: 1990px;
+    font-size: 30px;
+    width: 1400px;
+    left: 50px;
+}
+.desktop .text32{
+    position: absolute;
+    top: 2200px;
+    font-size: 30px;
+    width: 1400px;
+    left: 50px;
+    
+}
+.desktop .text33{
+    position: absolute;
+    top: 2310px;
+    font-size: 30px;
+    width: 1250px;
+    left: 180px;
+}
+.desktop .text34{
+    position: absolute;
+    top: 2510px;
+    font-size: 30px;
+    width: 1400px;
+    left: 80px;
+    text-align: center;
+}
+.desktop .niveau3{
+    position: absolute;
+    top: 2290px;
+    width: 7%;
+    height: auto;
+    left: 25px;
+}
+.desktop .line4{
+    position: absolute;
+    top: 2600px;
+    height: 50px;
+    left: 755px;
+    width: 50px;
+}
+button{
+    position: absolute;
+      padding: 10px 20px;
+      background-color: #C773C0;
+      color: black;
+      border: none;
+      cursor: pointer;
+      left: 650px;
+      top: 2720px;
+      font-size: 50px;
+      border-radius: 10px;
+}

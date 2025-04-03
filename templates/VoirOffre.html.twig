@@ -1,0 +1,9 @@
+<main class="offre-details">
+    <h2>{{ offre.Titre }} chez {{ offre.Nom_Entreprise }}</h2>
+    <img class="logo-entreprise" src="{{ offre.Logo }}" alt="{{ offre.Nom_Entreprise }}">
+    <p><strong>Description :</strong> {{ offre.Description }}</p>
+    <p><strong>Compétences requises :</strong> {{ offre.Competences }}</p>
+    <p><strong>Rémunération :</strong> {{ offre.Remuneration_Base }} €</p>
+    <p><strong>Date :</strong> {{ offre.Dates | date("d/m/Y") }}</p>
+    <a href="index.php?page=offres_stage">Retour aux offres</a>
+</main>

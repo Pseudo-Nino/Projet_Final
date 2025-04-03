@@ -1,1 +1,0 @@
-{"version":1,"defects":{"PaginationTest::testPaginationPage1":8,"PaginationTest::testPaginationPage2":8,"PaginationTest::testPaginationPageOutOfRange":8,"PaginationTest::testTotalPages":8},"times":{"PaginationTest::testPaginationPage1":0.052,"PaginationTest::testPaginationPage2":0.001,"PaginationTest::testPaginationPageOutOfRange":0,"PaginationTest::testTotalPages":0.002}}
