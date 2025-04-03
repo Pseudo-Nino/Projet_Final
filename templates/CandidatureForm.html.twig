@@ -1,0 +1,15 @@
+<form action="index.php?page=candidature" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="id_offre" value="{{ offre.Id_Offre_De_Stage }}">
+    
+    <div>
+        <label for="cv">CV (PDF ou Word) :</label>
+        <input type="file" name="cv" id="cv" required>
+    </div>
+    
+    <div>
+        <label for="lettre">Lettre de motivation (PDF ou Word) :</label>
+        <input type="file" name="lettre" id="lettre" required>
+    </div>
+    
+    <button type="submit">Soumettre ma candidature</button>
+</form>

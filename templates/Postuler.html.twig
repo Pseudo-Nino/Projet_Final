@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="static/globals.css" />
+    <link rel="stylesheet" href="static/style1.css" />
+    <link rel="stylesheet" href="static/style2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postuler - StageConnect</title>
+  </head>
+
+  <body>
+    <div class="desktop">
+      <div class="siteweb">
+        {% include 'navbar.html.twig' %}
+        {% include 'header.html.twig' %}
+
+        <main class="postuler-form">
+          <h2>Postuler à l'offre de stage : {{ offre.Titre }}</h2>
+
+          <form action="index.php?page=submit_postuler&id={{ offre.Id_Offre_De_Stage }}" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="cv">CV :</label>
+              <input type="file" id="cv" name="cv" required />
+            </div>
+
+            <div class="form-group">
+              <label for="lettre_motivation">Lettre de motivation :</label>
+              <input type="file" id="lettre_motivation" name="lettre_motivation" required />
+            </div>
+
+            <button type="submit" class="btn-offer">Envoyer ma candidature</button>
+          </form>
+        </main>
+
+        {% include 'footer.html.twig' %}
+      </div>
+    </div>
+  </body>
+</html>

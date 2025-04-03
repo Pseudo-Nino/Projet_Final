@@ -27,9 +27,20 @@ class OffreDeStage {
                 os.Remuneration_Base, os.Dates, e.Nom_Entreprise
         FROM Offre_De_Stage os
         JOIN Entreprise e ON os.Id_Entreprise = e.Id_Entreprise";
+        
         $stmt = $this->pdo->query($sql);
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        // Debugging: Vérifie si la requête renvoie des résultats
+        $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        if ($result) {
+            return $result;
+        } else {
+            // Si aucune donnée n'est récupérée, affiche une erreur ou un message
+            echo "Aucune donnée trouvée dans la base de données";
+            return [];
+        }
     }
+    
 
     public function getOffreById($id) {
         $sql = "SELECT os.Id_Offre_De_Stage, os.Titre, os.Description, os.Competences, 

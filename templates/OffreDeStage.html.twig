@@ -4,42 +4,38 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="static/globals.css" />
     <link rel="stylesheet" href="static/style1.css" />
+    <link rel="stylesheet" href="static/style2.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StageConnect</title>
   </head>
 
   <body>
     <div class="desktop">
-
       <div class="siteweb">
+        {% include 'navbar.html.twig' %}
+        {% include 'header.html.twig' %}
 
-      {% include 'navbar.html.twig' %}
-      {% include 'header.html.twig' %}
+        <main class="offres">
+          <p class="text6"><strong>Postes à pourvoir actuellement</strong></p>
 
-<main class="offres">
-    <p class="text6"><strong>Postes à pourvoir actuellement <span class="special-mot">Trier</span></strong></p>
-    <img class="traits" src="static/assets/Trois traits.jpg">
-    
-    {% for offre in offres %}
-        <div class="offres-stage">
-            <img class="logo-entreprise" src="{{ offre.Logo }}" alt="{{ offre.Nom_Entreprise }}">
-            <h3 class="text7">{{ offre.Nom_Entreprise }}</h3>
-            <h4 class="text8">{{ offre.Titre }}</h4>
-            <p>{{ offre.Description }}</p>
-            <p><strong>Compétences requises :</strong> {{ offre.Competences }}</p>
-            <p><strong>Rémunération :</strong> {{ offre.Remuneration_Base }} €</p>
-            <p><strong>Date :</strong> {{ offre.Dates | date("d/m/Y") }}</p>
-            <a href="index.php?page=voir_offre_stage&id={{ offre.Id_Offre_De_Stage }}"><button class="btn-offer">Voir l'offre</button></a>
-        </div>
-    {% endfor %}
-</main>
+          {% for offre in offres %}
+            <div class="offres-stage">
+              <p>{{ offre.Description }}</p>
+              <p><strong>Compétences requises :</strong> {{ offre.Competences }}</p>
+              <p><strong>Rémunération :</strong> {{ offre.Remuneration_Base }} €</p>
+              <p><strong>Date :</strong> {{ offre.Dates | date("d/m/Y") }}</p>
+              <a href="index.php?page=postuler&id={{ offre.Id_Offre_De_Stage }}">
+              <button class="btn-offer">Postuler</button>
+              </a>
 
+            </div>
+          {% else %}
+            <p>Aucune offre de stage disponible actuellement.</p>
+          {% endfor %}
+        </main>
 
-
-      {% include 'footer.html.twig' %}
-
+        {% include 'footer.html.twig' %}
       </div>
-
     </div>
-</body>
+  </body>
 </html>

@@ -17,6 +17,7 @@ class OffreDeStageController {
         $offres = $this->offreModel->getAllOffres();
         echo $this->twig->render('OffreDeStage.html.twig', ['offres' => $offres]);
     }
+    
 
     public function voirOffre($id) {
         $offre = $this->offreModel->getOffreById($id);

@@ -1,4 +1,5 @@
 <?php
+session_start();
 /**
  * This is the router, the main entry point of the application.
  * It handles the routing and dispatches requests to the appropriate controller methods.
@@ -14,6 +15,7 @@ use App\Controllers\AvisEntreprise;
 use App\Controllers\VoirOffre1;
 use App\Controllers\VoirOffre2;
 use App\Controllers\OffreDeStageController;
+use App\Controllers\CandidatureController;
 
 // Charger Twig
 $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/templates');
@@ -42,11 +44,6 @@ try {
             $controller = new Connexion($twig);
             echo $twig->render('Connexion.html.twig');
             break;
-
-        /*case 'offre_emploi':
-            $controller = new OffreEmploi($twig);
-            echo $twig->render('OffreEmploi.html.twig');
-            break;*/
 
         case 'avis_entreprise':
             $controller = new AvisEntreprise($twig);
@@ -80,11 +77,19 @@ try {
             }
             break;
 
-        /*default:
-            // Page non trouvée
-            http_response_code(404);
-            echo $twig->render('404.html.twig', ['message' => "Page introuvable"]);
-            break;*/
+            case 'candidature':
+                $controller = new CandidatureController($twig);
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    $controller->soumettreCandidature();
+                } else {
+                    if (isset($_GET['id'])) {
+                        $controller->afficherFormulaire($_GET['id']);
+                    } else {
+                        echo $twig->render('404.html.twig', ['message' => "ID de l'offre manquant"]);
+                    }
+                }
+                break;
+            
     }
 } catch (Exception $e) {
     // Gestion des erreurs
